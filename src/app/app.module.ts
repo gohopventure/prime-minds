@@ -11,6 +11,7 @@ import { FaqPageComponent } from './components/faq-page/faq-page.component';
 import { BlogPageComponent } from './components/blog-page/blog-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HeaderComponent } from './components/header/header.component';
     FaqPageComponent,
     BlogPageComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
