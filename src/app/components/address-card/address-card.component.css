@@ -2,5 +2,18 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(213, 129, 92);
-    font-size: medium;
+    height:15em;
+    width: 10em;
+}
+
+h2 {
+    margin: 1em 0 0 0 ;
+}
+
+.address {
+    margin: 1em 0 0 0;
+}
+
+p {
+    margin: 0;
 }
