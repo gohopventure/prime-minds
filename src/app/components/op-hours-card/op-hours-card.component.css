@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(92, 150, 213);
+    height:15em;
+    min-width: 15em;
+}
+
+h2 {
+    margin: 1em 0 0 0 ;
+}
+
+h3 {
+    margin: 0;
+}
+
+.hours {
+    margin: 1em 0 0 0;
+}
+
+p {
+    margin: 0 0 1em 0;
+}

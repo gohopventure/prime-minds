@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: rgb(213, 129, 92);
     height:15em;
-    width: 10em;
+    min-width: 15em;
 }
 
 h2 {
