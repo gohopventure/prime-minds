@@ -1,1 +1,23 @@
-<p>nav-bar works!</p>
+<div class="nav-container">
+    <div class="nav navbar-nav collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="menu-icon" [class.menuIcon]="menuIcon" (click)="updateMenuIcon()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="links">
+            <li><a routerLink="/">About</a></li>
+            <li><a routerLink="/">Services</a></li>
+            <li><a routerLink="/">FAQ</a></li>
+            <li><a routerLink="/">Contact Us</a></li>
+            <li><a routerLink="/">Blog</a></li>
+        </ul>
+    </div>
+    <ul class="mobile-links" [class.mobileLinks]="mobileLinks">
+        <li><a routerLink="/">About</a></li>
+        <li><a routerLink="/">Services</a></li>
+        <li><a routerLink="/">FAQ</a></li>
+        <li><a routerLink="/">Contact Us</a></li>
+        <li><a routerLink="/">Blog</a></li>
+    </ul>
+</div>

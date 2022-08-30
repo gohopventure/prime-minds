@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
+  mobileLinks:boolean = false;
+  menuIcon:boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  updateMenuIcon(): void {
+    this.mobileLinks =! this.mobileLinks
+    this.menuIcon =! this.menuIcon
+  }
 }
