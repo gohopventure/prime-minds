@@ -15,6 +15,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { AddressCardComponent } from './components/address-card/address-card.component';
 import { OpHoursCardComponent } from './components/op-hours-card/op-hours-card.component';
 import { SocialCardComponent } from './components/social-card/social-card.component';
+import { CopyrightBannerComponent } from './components/copyright-banner/copyright-banner.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SocialCardComponent } from './components/social-card/social-card.compon
     NavBarComponent,
     AddressCardComponent,
     OpHoursCardComponent,
-    SocialCardComponent
+    SocialCardComponent,
+    CopyrightBannerComponent
   ],
   imports: [
     BrowserModule,
