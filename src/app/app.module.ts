@@ -9,6 +9,7 @@ import { ServicesPageComponent } from './components/services-page/services-page.
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
 import { FaqPageComponent } from './components/faq-page/faq-page.component';
 import { BlogPageComponent } from './components/blog-page/blog-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BlogPageComponent } from './components/blog-page/blog-page.component';
     ServicesPageComponent,
     ContactPageComponent,
     FaqPageComponent,
-    BlogPageComponent
+    BlogPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
