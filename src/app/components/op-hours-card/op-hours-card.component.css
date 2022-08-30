@@ -15,6 +15,9 @@ h3 {
 }
 
 .hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 1em 0 0 0;
 }
 
@@ -24,6 +27,6 @@ p {
 
 @media only screen and (max-width: 700px) {
     .card-container {
-        min-height:.125em;
+        height: 12em;
     }
 }
