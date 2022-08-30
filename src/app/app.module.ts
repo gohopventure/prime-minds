@@ -8,6 +8,7 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { ServicesPageComponent } from './components/services-page/services-page.component';
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
 import { FaqPageComponent } from './components/faq-page/faq-page.component';
+import { BlogPageComponent } from './components/blog-page/blog-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FaqPageComponent } from './components/faq-page/faq-page.component';
     AboutPageComponent,
     ServicesPageComponent,
     ContactPageComponent,
-    FaqPageComponent
+    FaqPageComponent,
+    BlogPageComponent
   ],
   imports: [
     BrowserModule,
