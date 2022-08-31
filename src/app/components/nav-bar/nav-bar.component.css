@@ -1,7 +1,3 @@
-.nav-container {
-    background-color: rgb(163, 251, 179);
-}
-
 .nav {
     display: flex;
     flex-direction: row;
@@ -15,7 +11,7 @@
 
 ul {
     padding: 0;
-    background-color: rgb(163, 251, 179);
+    background-color: antiquewhite;
 }
 
 li {
