@@ -5,7 +5,7 @@
     justify-content: space-between;
     min-height: 20em;
     padding: 0 1em;
-    background-color: rgb(222, 251, 163);
+    background-color:burlywood;
 }
 
 @media only screen and (max-width: 700px) {
