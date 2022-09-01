@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .25em 1.5em;
+    padding: 0;
+    max-width: 9em;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: .25em;
+    list-style-type: none;
+}
+
+a {
+    color: burlywood;
+}
+
+a:hover {
+    color: antiquewhite;
+    transition: .5s ease-in-out;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        display: none;
+    }
+}

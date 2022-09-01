@@ -16,6 +16,7 @@ import { AddressCardComponent } from './components/address-card/address-card.com
 import { OpHoursCardComponent } from './components/op-hours-card/op-hours-card.component';
 import { SocialCardComponent } from './components/social-card/social-card.component';
 import { CopyrightBannerComponent } from './components/copyright-banner/copyright-banner.component';
+import { SocialBannerComponent } from './components/social-banner/social-banner.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CopyrightBannerComponent } from './components/copyright-banner/copyrigh
     AddressCardComponent,
     OpHoursCardComponent,
     SocialCardComponent,
-    CopyrightBannerComponent
+    CopyrightBannerComponent,
+    SocialBannerComponent
   ],
   imports: [
     BrowserModule,
