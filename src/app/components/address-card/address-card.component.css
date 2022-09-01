@@ -6,19 +6,23 @@
 }
 
 h2 {
+    color: white;
     margin: 1em 0 0 0 ;
 }
 
 .address {
-    margin: 1em 0 0 0;
+    margin: 1em 0;
 }
 
 p {
+    max-width: 30em;
+    color: antiquewhite;
     margin: 0;
 }
 
 @media only screen and (max-width: 700px) {
     .card-container {
-        height: 10em;
+        min-height: 10em;
+        margin-bottom: 2em;
     }
 }

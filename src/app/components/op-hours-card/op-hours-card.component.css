@@ -6,10 +6,12 @@
 }
 
 h2 {
+    color: white;
     margin: 1em 0 0 0 ;
 }
 
 h3 {
+    color: white;
     margin: 0;
 }
 
@@ -21,6 +23,7 @@ h3 {
 }
 
 p {
+    color: antiquewhite;
     margin: 0 0 1em 0;
 }
 
