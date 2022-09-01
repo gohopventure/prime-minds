@@ -6,10 +6,12 @@
 }
 
 h2 {
+    color: white;
     margin: 1em 0 0 0 ;
 }
 
 h3 {
+    color: white;
     margin: 0;
 }
 
@@ -18,5 +20,66 @@ h3 {
 }
 
 p {
+    color: antiquewhite;
     margin: 0 0 1em 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 9em;
+}
+
+a, li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: .25em;
+    list-style-type: none;
+}
+
+a {
+    color: burlywood;
+}
+
+li:hover, a:hover {
+    color: antiquewhite;
+    background-color: burlywood;
+    transition: .5s ease-in-out;
+}
+
+input {
+    color: burlywood;
+    border: .25em solid antiquewhite;
+    border-radius: .25em;
+    background-color: antiquewhite;
+}
+
+button {
+    border: .125em solid antiquewhite;
+    border-radius: .25em;
+    height: 2em;
+    width: 5em;
+    font-size: large;
+    color: burlywood;
+    background-color: antiquewhite;
+    margin-top: .25em;
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(250, 235, 215, 0.75);
+    transition: .5s ease-in-out;
+}
+
+@media only screen and (max-width: 700px) {
+    .card-container {
+        margin-bottom: 1em;
+    }
 }
