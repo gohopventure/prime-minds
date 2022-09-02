@@ -25,13 +25,13 @@ a {
     color: black;
 }
 
-a:visited {
-    color: black;
-}
-
-.links a:hover {
+a:hover {
     color: burlywood;
     transition: 0.4s ease-in-out;
+}
+
+a:active {
+    color: white;
 }
 
 @media only screen and (max-width: 999px) {
