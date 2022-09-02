@@ -1,0 +1,103 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 30em;
+}
+
+.write-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    padding: 0 1em;
+}
+
+p {
+     margin: 0;
+     max-width: 45em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    min-height: 30em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 25em;
+    min-width: 28em;
+    border-radius: 5em;
+    /* border-color: burlywood;
+    background-color: burlywood; */
+    margin: 2em;
+    padding: 2em;
+}
+
+.name-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    color: burlywood;
+    border: .25em solid burlywood;
+    border-radius: .25em;
+    background-color: antiquewhite;
+    height: 1.75em;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus {
+    color: white;
+    background-color: rgba(222, 184, 135, 0.475);
+}
+
+.email-input > input {
+    width: 98.5%;
+}
+
+label > h2 {
+    color: burlywood;
+    margin: .125em 0;
+}
+
+button {
+    border: .25em solid burlywood;
+    border-radius: .25em;
+    height: 3em;
+    width: 10em;
+    font-size: large;
+    color: burlywood;
+    background-color: antiquewhite;
+}
+
+button:hover, button:focus {
+    background-color: rgba(222, 184, 135, 0.475);
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+button:active {
+    background-color: white;
+    color: burlywood;
+}
+
+.cta > h2, .cta > p, .cta-2 > h2 {
+    color: burlywood;
+}
+
+@media only screen and (max-width: 1000px) {
+    p {
+        max-width: 35em;
+    }
+    
+}
