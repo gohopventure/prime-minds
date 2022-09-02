@@ -48,10 +48,14 @@ a {
     color: burlywood;
 }
 
-li:hover, a:hover {
-    color: antiquewhite;
-    background-color: burlywood;
+a:hover {
+    background-color: white;
     transition: .5s ease-in-out;
+}
+
+a:active {
+    background-color: burlywood;
+    color: white;
 }
 
 input {
@@ -77,6 +81,12 @@ button:hover {
     border-color: antiquewhite;
     background-color: rgba(250, 235, 215, 0.475);
     transition: .5s ease-in-out;
+}
+
+button:active {
+    color: white;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
 }
 
 @media only screen and (max-width: 700px) {

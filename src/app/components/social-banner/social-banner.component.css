@@ -24,12 +24,27 @@ li {
     list-style-type: none;
 }
 
-a {
+a { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: .25em;
+    list-style-type: none;
     color: burlywood;
 }
 
 a:hover {
+    color: white;
+    background-color: burlywood;
+    transition: .5s ease-in-out;
+}
+
+a:active {
     color: antiquewhite;
+    background-color: white;
     transition: .5s ease-in-out;
 }
 
