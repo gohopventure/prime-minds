@@ -169,7 +169,7 @@ button:active {
         padding-top: 1em;
     }
 
-    p {
+    p, .mission > p {
         max-width: 35em;
     }
     
