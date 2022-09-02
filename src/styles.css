@@ -6,5 +6,5 @@ body{
 }
 
 input:focus, button:focus {
-    outline: none
+    outline: solid .15em white;
 }

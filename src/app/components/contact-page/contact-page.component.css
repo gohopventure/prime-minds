@@ -56,16 +56,20 @@ input {
     margin: 0;
 }
 
-input:focus {
+input:focus, input:-moz-ui-valid {
     color: white;
     background-color: rgba(222, 184, 135, 0.475);
+}
+
+input:-moz-ui-invalid {
+    outline: solid .15em red;
 }
 
 .email-input > input {
     width: 98.5%;
 }
 
-label > h2 {
+label > h3 {
     color: burlywood;
     margin: .125em 0;
 }
@@ -91,7 +95,7 @@ button:active {
     color: burlywood;
 }
 
-.cta > h2, .cta > p, .cta-2 > h2 {
+.cta > h3, .cta > p, .cta-2 > h3 {
     color: burlywood;
 }
 
