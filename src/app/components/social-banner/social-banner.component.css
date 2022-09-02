@@ -13,18 +13,8 @@
     max-width: 9em;
 }
 
-li {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 1.5em;
-    width: 1.5em;
-    border-radius: .25em;
-    list-style-type: none;
-}
-
-a { 
+li, a { 
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
