@@ -67,7 +67,12 @@ input {
     color: burlywood;
     border: .25em solid antiquewhite;
     border-radius: .25em;
-    background-color: antiquewhite;
+    background-color: white;
+}
+
+input:focus {
+    color: white;
+    background-color: rgba(250, 235, 215, 0.475);
 }
 
 input:-moz-ui-invalid {
