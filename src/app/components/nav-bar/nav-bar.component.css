@@ -2,7 +2,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .mobile-links {
@@ -22,16 +29,19 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: burlywood;
+    text-shadow: .0975em .075em .0125em  white;
+    font-size: large;
 }
 
 a:hover {
-    color: burlywood;
+    color: white;
+    text-shadow: .0975em .075em .0125em  burlywood;
     transition: 0.4s ease-in-out;
 }
 
 a:active {
-    color: white;
+    color: antiquewhite;
 }
 
 @media only screen and (max-width: 999px) {
@@ -46,17 +56,23 @@ a:active {
         top: 64px;
         width: 100%;
         height: 100%;
+        padding: 0 .275em;
     }
 
     li {
         display: block;
-        margin: 20px 0 0 12px;
+        margin: 3em 0 0 1em;
+    }
+
+    .mobile-links > li {
+        margin-left: 2.5em;
     }
 
     .menu-icon span{
         width: 32px;
         height: 3px;
-        background: black;
+        background: burlywood;
+        box-shadow: .125em .125em .0125em  white;
         display: block;
         cursor: pointer;
         transition: 0.2s ease-in-out;

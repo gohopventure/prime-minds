@@ -26,11 +26,14 @@
 }
 
 a {
+    color: white;
     text-decoration: none;
+    text-shadow: .0975em .0175em .0125em  burlywood;
+    font-size: xx-large;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 @media only screen and (max-width: 1000px) {
