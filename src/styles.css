@@ -8,3 +8,7 @@ body{
 input:focus, button:focus {
     outline: solid .15em white;
 }
+
+button:hover {
+    cursor: pointer;
+}
