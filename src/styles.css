@@ -5,6 +5,10 @@ body{
     padding: 0;
 }
 
+input, button {
+    font-weight: bold;
+}
+
 input:focus, button:focus {
     outline: solid .15em white;
 }
