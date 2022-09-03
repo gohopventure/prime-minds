@@ -1,4 +1,4 @@
-<div class="header-container">
+<div class="header-container" (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed':'notfixed'">
     <h1><a routerLink="/">Prime Minds</a></h1>
     <app-nav-bar></app-nav-bar>
 </div>
