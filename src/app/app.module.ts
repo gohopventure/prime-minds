@@ -17,6 +17,8 @@ import { OpHoursCardComponent } from './components/op-hours-card/op-hours-card.c
 import { SocialCardComponent } from './components/social-card/social-card.component';
 import { CopyrightBannerComponent } from './components/copyright-banner/copyright-banner.component';
 import { SocialBannerComponent } from './components/social-banner/social-banner.component';
+import { ConstructionPageComponent } from './components/construction-page/construction-page.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { SocialBannerComponent } from './components/social-banner/social-banner.
     OpHoursCardComponent,
     SocialCardComponent,
     CopyrightBannerComponent,
-    SocialBannerComponent
+    SocialBannerComponent,
+    ConstructionPageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

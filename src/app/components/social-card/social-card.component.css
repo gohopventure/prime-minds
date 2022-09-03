@@ -90,8 +90,7 @@ button {
     margin-top: .25em;
 }
 
-button:hover {
-    color: white;
+button:hover, button:focus {
     border-color: antiquewhite;
     background-color: rgba(250, 235, 215, 0.475);
     transition: .5s ease-in-out;
