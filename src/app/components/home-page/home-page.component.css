@@ -225,6 +225,11 @@ button:active {
         min-height: 0;
     }
 
+    .image-overlay {
+        height: 88.5%;
+        margin: 3em 0;
+    }
+
     .cd-row-1, .cd-row-2, .image {
         display: flex;
         flex-direction: column;
