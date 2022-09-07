@@ -1,9 +1,17 @@
 .page-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    min-height: 20em;
+    min-height: 35em;
+    background-color: burlywood;
+    border-bottom: .0125em solid antiquewhite;
+}
+
+h1 {
+    color: antiquewhite;
+    text-shadow: .0975em .0175em .0125em  burlywood;
+    font-size: xx-large;
 }
 
 button {
@@ -27,4 +35,10 @@ button:active {
     color: white;
     border-color: antiquewhite;
     background-color: antiquewhite;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: x-large;
+    }
 }
