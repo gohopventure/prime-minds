@@ -32,11 +32,9 @@ form {
     flex-direction: column;
     justify-content: space-evenly;
     min-height: 25em;
-    min-width: 28em;
+    min-width: 36em;
     border-radius: 5em;
-    /* border-color: burlywood;
-    background-color: burlywood; */
-    margin: 2em;
+    margin: 1em;
     padding: 2em;
 }
 
@@ -46,17 +44,39 @@ form {
     justify-content: space-between;
 }
 
-input {
+.name-input > input {
+    min-width: 14em;
+}
+
+.phone-input, .phone-input > input {
+    width: 10em;
+}
+
+.sub-form-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date-pref {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 8em;
+}
+
+input, input:placeholder-shown {
     color: burlywood;
     border: .25em solid burlywood;
     border-radius: .25em;
-    background-color: antiquewhite;
-    height: 1.75em;
+    background-color: white;
+    height: 2em;
     padding: 0;
     margin: 0;
+    font-size: larger;
 }
 
-input:focus, input:-moz-ui-valid {
+input:focus {
     color: white;
     background-color: rgba(222, 184, 135, 0.475);
 }
@@ -74,6 +94,14 @@ label > h3 {
     margin: .125em 0;
 }
 
+.radio-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10em;
+    
+}
+
 button {
     border: .25em solid burlywood;
     border-radius: .25em;
@@ -82,6 +110,7 @@ button {
     font-size: large;
     color: burlywood;
     background-color: antiquewhite;
+    margin: .25em 0;
 }
 
 button:hover, button:focus {
@@ -103,5 +132,44 @@ button:active {
     p {
         max-width: 35em;
     }
-    
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .name-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 6.75em;
+    }
+
+    input, .name-input > input, .email-input > input {
+        width: 23em;
+    }
+
+    .sub-form {
+        margin: 1em 0 0 0;
+    }
+
+    .sub-form-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 10em;
+        
+    }
+
+    button {
+        margin: 1em 0;
+    }
+
+    .radio-button {
+        flex-direction: column;
+    }
 }
