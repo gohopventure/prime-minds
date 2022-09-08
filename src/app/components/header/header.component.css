@@ -34,7 +34,7 @@ a {
 }
 
 a:visited {
-    color: rgb(233, 227, 227);
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 1000px) {
