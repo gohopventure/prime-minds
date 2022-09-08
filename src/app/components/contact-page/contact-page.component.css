@@ -150,7 +150,7 @@ button:active {
     }
 
     input, .name-input > input, .email-input > input {
-        width: 23em;
+        width: 20em;
     }
 
     .sub-form {
