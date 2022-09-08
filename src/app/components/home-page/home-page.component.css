@@ -255,5 +255,18 @@ button:active {
     p, .mission > p {
         max-width: 35em;
     }
+
+    .cd-row-1 > img, .cd-row-2 > img, .image > img {
+        max-height: 40em;
+        max-width: 25em;
+    }
+
+    .image-overlay {
+        height: 86.25%;
+    }
+
+    .image-overlay > p {
+        max-width: 23em;
+    }
     
 }
