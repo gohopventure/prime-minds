@@ -94,5 +94,11 @@ button:active {
     .education-para {
         max-width: 30em;
     }
+
+    img {
+        max-height: 40em;
+        max-width: 25em;
+        border-radius: 5em;
+    }
     
 }
