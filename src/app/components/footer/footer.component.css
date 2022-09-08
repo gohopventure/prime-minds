@@ -6,6 +6,7 @@
     min-height: 20em;
     padding: 0 2em;
     background-color:burlywood;
+    border-top: .0125em solid antiquewhite;
 }
 
 @media only screen and (max-width: 1000px) {
