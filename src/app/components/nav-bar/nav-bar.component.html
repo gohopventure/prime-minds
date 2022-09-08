@@ -14,7 +14,7 @@
             <!-- <li><a class="link link-blog" routerLink="/blog">Blog</a></li> -->
         </ul>
     </div>
-    <ul class="mobile-links" [class.mobileLinks]="mobileLinks">
+    <ul class="mobile-links" [class.mobileLinks]="mobileLinks" (click)="updateMenuIcon()">
         <li><a class="link link-about" routerLink="/">Home</a></li>
         <li><a class="link link-about" routerLink="/about">About</a></li>
         <li><a class="link link-services" routerLink="/services">Services</a></li>
