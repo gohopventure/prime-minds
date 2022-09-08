@@ -268,5 +268,9 @@ button:active {
     .image-overlay > p {
         max-width: 23em;
     }
+
+    .cta-1 > img, .services-header > img {
+        max-width: 26em;
+    }
     
 }
