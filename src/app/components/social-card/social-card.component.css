@@ -54,7 +54,8 @@ a {
 }
 
 a:hover {
-    background-color: rgba(222, 184, 135, 0.475);
+    background-color: #3D2C22;
+    color: white;
     transition: .5s ease-in-out;
     border: .125em solid antiquewhite;
     border-radius: .25em;
