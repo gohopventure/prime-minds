@@ -66,8 +66,8 @@ form {
 }
 
 input, input:placeholder-shown {
-    color: burlywood;
-    border: .25em solid burlywood;
+    color: #3D2C22;
+    border: .25em solid #3D2C22;
     border-radius: .25em;
     background-color: white;
     height: 2em;
@@ -90,7 +90,7 @@ input:-moz-ui-invalid {
 }
 
 label > h3 {
-    color: burlywood;
+    color: #3D2C22;
     margin: .125em 0;
 }
 
@@ -103,12 +103,12 @@ label > h3 {
 }
 
 button {
-    border: .25em solid burlywood;
+    border: .25em solid #3D2C22;
     border-radius: .25em;
     height: 3em;
     width: 10em;
     font-size: large;
-    color: burlywood;
+    color: #3D2C22;
     background-color: antiquewhite;
     margin: .25em 0;
 }
@@ -121,11 +121,11 @@ button:hover, button:focus {
 
 button:active {
     background-color: white;
-    color: burlywood;
+    color: #3D2C22;
 }
 
 .cta > h3, .cta > p, .cta-2 > h3 {
-    color: burlywood;
+    color: #3D2C22;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -4,12 +4,12 @@
     justify-content: center;
     align-items: center;
     min-height: 35em;
-    background-color: burlywood;
+    background-color: #3D2C22;
 }
 
 h1 {
     color: antiquewhite;
-    text-shadow: .0975em .0175em .0125em  burlywood;
+    text-shadow: .0975em .0175em .0125em  #3D2C22;
     font-size: xx-large;
 }
 
@@ -19,7 +19,7 @@ button {
     height: 3em;
     width: 10em;
     font-size: large;
-    color: burlywood;
+    color: #3D2C22;
     background-color: antiquewhite;
     margin-top: .25em;
 }

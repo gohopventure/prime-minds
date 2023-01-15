@@ -29,14 +29,14 @@ li {
 
 a {
     text-decoration: none;
-    color: burlywood;
+    color: #3D2C22;
     text-shadow: .0975em .075em .0125em  white;
     font-size: large;
 }
 
 a:hover {
     color: white;
-    text-shadow: .0975em .075em .0125em  burlywood;
+    text-shadow: .0975em .075em .0125em  #3D2C22;
     transition: 0.4s ease-in-out;
 }
 
@@ -53,7 +53,7 @@ a:active {
         display: inline;
         position: fixed;
         right: -1100px;
-        top: 112.5px;
+        top: 112px;
         width: 100%;
         height: 100%;
         padding: 0 .275em;
@@ -71,7 +71,7 @@ a:active {
     .menu-icon span{
         width: 32px;
         height: 3px;
-        background: burlywood;
+        background: #3D2C22;
         box-shadow: .125em .125em .0125em  white;
         display: block;
         cursor: pointer;

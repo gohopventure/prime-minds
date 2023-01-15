@@ -52,16 +52,16 @@ img {
 }
 
 .cta > h2 {
-    color: burlywood;
+    color: #3D2C22;
 }
 
 button {
-    border: .25em solid burlywood;
+    border: .25em solid #3D2C22;
     border-radius: .25em;
     height: 3em;
     width: 10em;
     font-size: large;
-    color: burlywood;
+    color: #3D2C22;
     background-color: antiquewhite;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 
 button:active {
     background-color: white;
-    color: burlywood;
+    color: #3D2C22;
 }
 
 @media only screen and (max-width: 1000px) {

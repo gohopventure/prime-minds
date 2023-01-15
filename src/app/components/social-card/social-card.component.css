@@ -50,7 +50,7 @@ a, li {
 
 a {
     text-decoration: none;
-    color: burlywood;
+    color: #3D2C22;
 }
 
 a:hover {
@@ -61,12 +61,12 @@ a:hover {
 }
 
 a:active {
-    background-color: burlywood;
+    background-color: #3D2C22;
     color: white;
 }
 
 input {
-    color: burlywood;
+    color: #3D2C22;
     border: .25em solid antiquewhite;
     border-radius: .25em;
     background-color: white;
@@ -87,7 +87,7 @@ button {
     height: 2em;
     width: 7em;
     font-size: large;
-    color: burlywood;
+    color: #3D2C22;
     background-color: antiquewhite;
     margin-top: .25em;
 }
