@@ -21,7 +21,11 @@ a {
 
 img {
     margin-top: 1em;
-    width: 6.5em;
+    width: 27em;
+}
+
+.mini-logo {
+    display: none;
 }
 
 p {
@@ -34,5 +38,14 @@ p {
     img {
         margin-top: 3em;
         width: 6.5em;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+    .mini-logo {
+        display: flex;
     }
 }
