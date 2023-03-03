@@ -185,7 +185,7 @@ p {
     max-width: 45em;
 }
 
-button {
+.service-card > button{
     border: .25em solid antiquewhite;
     border-radius: .25em;
     height: 3em;
@@ -195,7 +195,23 @@ button {
     background-color: antiquewhite;
 }
 
-button:hover {
+.helper > button {
+    border: .25em solid #3D2C22;
+    border-radius: .25em;
+    height: 3em;
+    width: 10em;
+    font-size: large;
+    color: #3D2C22;
+    background-color: antiquewhite;
+}
+
+.service-card > button:hover {
+    background-color: rgba(222, 184, 135, 0.475);
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.helper > button:hover {
     background-color: rgba(222, 184, 135, 0.475);
     color: white;
     transition: .5s ease-in-out;
