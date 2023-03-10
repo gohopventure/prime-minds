@@ -64,6 +64,10 @@
     display: block;
 }
 
+.image-description {
+    text-align: center;
+}
+
 .image-overlay {
     display: flex;
     flex-direction: column;
