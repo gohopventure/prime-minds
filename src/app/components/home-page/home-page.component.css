@@ -160,6 +160,12 @@
     padding: 0 1em;
 }
 
+/* .cta > h2 {
+    margin: 0;
+    margin-bottom: 0.25em;
+    align-self: flex-start;
+} */
+
 .cta > h2, .cta > p, .cta-2 > h2 {
     color: #3D2C22;
 }
